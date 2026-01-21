@@ -1,7 +1,6 @@
-# Robotic MVA 2025
+# Robotic Exercises 2025
 
-This repository contains the exercices for the MVA robotics class, 2025.
-The exercices are organized by notebook. Each notebook corresponds to one chapter of the class.
+This repository contains a mix between the exercices for the [MVA](https://github.com/AjSat/2025_MVA_Robotics_Exercises) and [Supaero](https://github.com/Gepetto/supaero2025/tree/main) robotics classes, 2025.
 The notebooks are in Python and based on the software [Pinocchio](https://github.com/stack-of-tasks/pinocchio).
 
 ## Getting started
@@ -11,13 +10,13 @@ The notebooks are in Python and based on the software [Pinocchio](https://github
 Using Git via SSH:
 
 ```bash
-git clone git@github.com:ajsat/2025_mva_robotics_exercises.git
+git clone git@github.com:Mowibox/2025_MVA_Robotics_Exercises
 ```
 
 Or via HTTPS:
 
 ```bash
-git clone https://github.com/ajsat/2025_mva_robotics_exercises.git
+git clone https://github.com/Mowibox/2025_MVA_Robotics_Exercises
 ```
 
 ### Install miniconda
@@ -52,12 +51,12 @@ jupyter-lab
 
 The notebook will be accessible from your web browser at [localhost:8888](http://localhost:8888).
 
-Meshcat visualisation can be access in full page in `localhost:700N/static/` where N denotes the Nth meshcat instance created with the running kernel. You are also welcome to use VS Code with its Jupyter Notebook extension. 
+Meshcat visualisation can be access in full page in `localhost:700N/static/` where N denotes the Nth meshcat instance created with the running kernel. You are also welcome to use VS Code with its Jupyter Notebook extension.
 
 ## Updating the notebooks
 
 If the repository changes (for instance when new tutorials are pushed) you will need to update your local copy of it by "pulling" from the repository. To do so, go to the directory containing the tutorials and run:
 
-```
+```bash
 git pull
 ```
